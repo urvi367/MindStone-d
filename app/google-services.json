@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59837642283",
+    "firebase_url": "https://mindstone-d.firebaseio.com",
+    "project_id": "mindstone-d",
+    "storage_bucket": "mindstone-d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59837642283:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59837642283-34aej67itomis8i7vnbc45f8h47pc3rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.firebase",
+            "certificate_hash": "455fb49fdab7f9d53b4a082b8761503aa08869da"
+          }
+        },
+        {
+          "client_id": "59837642283-mssj096butttu00p73280rvef32t3m5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaO2GT-Z5O45jZffQxknAA49FfwlnnGcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59837642283-mssj096butttu00p73280rvef32t3m5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

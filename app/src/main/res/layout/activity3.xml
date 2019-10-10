@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/desc"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a"
+        tools:alpha="0.25" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:text="@string/when_you_experience_emotional_instability_mood_swings_and_impulsive_behaviors_in_a_way_that_is_preventing_you_from_thoroughly_enjoying_your_relationships_and_yourself_it_can_impact_your_happiness_health_professionals_refer_to_it_as_borderline_personality_to_discover_whether_you_are_experiencing_the_same_answer_questions_based_on_a_clinically_validated_test_developed_at_the_university_of_iowa"
+        android:textAlignment="center"
+        android:textColor="#151414"
+
+        android:textSize="18sp"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:orientation="horizontal" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:alpha="1"
+        android:background="@drawable/shape"
+
+
+
+        android:text="@string/start"
+
+        android:textColor="#151414"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="268dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:alpha="0.5"
+        android:background="@drawable/shape"
+        android:text="@string/borderline_personality"
+
+
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

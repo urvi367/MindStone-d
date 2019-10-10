@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgg"
+        android:paddingBottom="16dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:text="Options"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:text="Strongly Agree"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Moderately Agree"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:text="Agree"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neutral"
+        android:background="#B71C1C"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/choice4"/>
+
+    <Button
+        android:id="@+id/choice5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:text="Disagree"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Moderately Disagree"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="8dp"
+        android:text="Strongly Disagree"
+        android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/activity_navigation_drawer"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_main"
+        android:id="@+id/nv">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+
+

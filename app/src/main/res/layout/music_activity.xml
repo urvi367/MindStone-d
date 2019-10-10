@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgg">
+
+    <TextView
+        android:id="@+id/song1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/don_t_look_down_martin_garrix"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/song2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="@string/failure_breaking_benjamin"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/song3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:text="@string/hall_of_fame_the_script"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/song4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:text="@string/dream_on_aerosmith"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/song5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="167dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginStart="39dp"
+        android:text="@string/superheroes_the_script"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+</LinearLayout>
+

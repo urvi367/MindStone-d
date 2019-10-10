@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_know_thyself"
+            android:title="Know Thyself" />
+        <item
+            android:id="@+id/nav_monitor_yourself"
+            android:title="Monitor Yourself" />
+        <item
+            android:id="@+id/nav_mood_lifter"
+            android:title="Mood Lifter" />
+
+        <item
+            android:id="@+id/nav_survival_manual"
+            android:title="Survival Manual" />
+
+        <item
+            android:id="@+id/nav_contact_for_help"
+            android:title="Contact for help" />
+
+
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_setting"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about_us"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

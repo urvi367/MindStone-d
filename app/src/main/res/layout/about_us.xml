@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aaa"
+    android:background="@drawable/bgg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/activity_navigation_drawer"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_main"
+        android:id="@+id/nv"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:textSize="18dp"
+                android:text="You’re going through a difficult phase in life and are worried about your mental health? Mindstone-D is a leading mental illness app which accompanies you on your way out of a such illnesses." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_margin="30dp"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_mental_health"/>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. We’ll test your mood "/>
+        <TextView
+            android:id="@+id/t3"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. We'll test your personality"/>
+        <TextView
+            android:id="@+id/t4"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. We'll provide helplines"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. We'll improve your mood"/>
+        <TextView
+            android:id="@+id/t6"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. We'll provide you a survival handbook"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="info.androidhive.firebase">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OtherActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SurvivalManual1" />
+        <activity
+            android:name=".SurvivalManual2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".SurvivalManual3"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".HomeScreen" />
+
+        <activity android:name=".ContactForHelp" />
+
+        <activity android:name=".Mainharika" />
+
+        <activity android:name=".Memes_Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Music_Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Quotes_Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".webView"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".picture"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".picture1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".KnowThyself" />
+        <activity android:name=".Stories_Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".picture2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".quizactivityptsd"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".resultptsd"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".anxiety"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".quizanxiety"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".borderline"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".quizborderline"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".quizdep"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".depression"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".quizadhd"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".adhd"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".homepage"/>
+        <activity android:name=".aboutUs" />
+
+
+    </application>
+
+</manifest>

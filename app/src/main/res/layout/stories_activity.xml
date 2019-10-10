@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/story1"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                android:layout_margin="20dp"
+                android:text="@string/the_elephant_rope_n_n_as_a_man_was_passing_the_elephants_he_suddenly_stopped_confused_by_the_fact_that_these_huge_creatures_were_being_held_by_only_a_small_rope_tied_to_their_front_leg_no_chains_no_cages_it_was_obvious_that_the_elephants_could_at_anytime_break_away_from_their_bonds_but_for_some_reason_they_did_not_n_n_he_saw_a_trainer_nearby_and_asked_why_these_animals_just_stood_there_and_made_no_attempt_to_get_away_well_trainer_said_when_they_are_very_young_and_much_smaller_we_use_the_same_size_rope_to_tie_them_and_at_that_age_it_s_enough_to_hold_them_as_they_grow_up_they_are_conditioned_to_believe_they_cannot_break_away_they_believe_the_rope_can_still_hold_them_so_they_never_try_to_break_free_the_man_was_amazed_these_animals_could_at_any_time_break_free_from_their_bonds_but_because_they_believed_they_couldn_t_they_were_stuck_right_where_they_were_like_the_elephants_how_many_of_us_go_through_life_hanging_onto_a_belief_that_we_cannot_do_something_simply_because_we_failed_at_it_once_before_failure_is_part_of_learning_we_should_never_give_up_the_struggle_in_life_n_n"/>
+
+            <TextView
+            android:id="@+id/story2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+                android:typeface="monospace"
+                android:layout_margin="20dp"
+            android:text="@string/lance_armstrong_n_n_diagnosed_with_advanced_testicular_cancer_at_the_age_of_25_doctors_gave_lance_armstrong_less_than_a_40_percent_chance_of_recovery_tumors_were_discovered_in_his_lungs_and_stomach_along_with_multiple_lesions_on_the_brain_his_biking_career_was_over_or_so_everyone_thought_but_no_one_counted_on_the_indomitable_belief_armstrong_had_in_himself_and_the_lessons_which_his_mother_linda_walling_had_taught_him_one_of_the_first_things_that_he_did_was_to_acknowledge_the_disease_that_had_captured_him_in_its_talons_and_learn_everything_he_could_about_it_he_devoured_books_resources_and_found_help_in_support_groups_with_people_going_through_similar_difficulties_lance_sought_strength_in_three_things_his_mother_had_instilled_in_him_n_n_make_every_obstacle_an_opportunity_always_work_hard_and_good_things_will_happen_and_don_t_believe_it_when_other_people_say_you_can_t_his_first_comeback_after_beating_cancer_was_not_a_success_and_he_finished_fourteenth_in_the_race_he_even_thought_about_retirement_but_constant_support_from_his_fianc_e_mother_and_buddy_chris_carmichael_soon_had_him_training_for_his_next_race_in_the_appalachians_he_returned_from_his_training_a_transformed_man_and_never_let_the_constant_difficulties_plough_him_down_again_true_the_doping_scandals_have_destroyed_lance_s_reputation_as_a_professional_biker_but_one_cannot_but_admire_his_sheer_will_power_and_dedication_through_which_he_turned_the_odds_in_his_favor_at_a_time_when_everyone_thought_his_life_was_over">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
